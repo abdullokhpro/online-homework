@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+*, *::after, * ::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 90px;
+}
+
+a {
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media  (min-width: 1440px){
+    .container {
+        width: 1200px;
+    }
+}
+
+.df {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#backtop {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: dimgray;
+}
+
+.show-backtop {
+    display: block !important;
+}
