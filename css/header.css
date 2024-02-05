@@ -90,3 +90,9 @@ nav {
 
 }
 
+@media (max-width: 400px) {
+    .nav-buttons__contact {
+        display: none;
+    }
+}
+

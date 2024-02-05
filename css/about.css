@@ -19,6 +19,9 @@
     padding: 10px 0px;
 }
 
+.about__img {
+    width: 100%;
+}
 
 @media (max-width: 920px) {
     .about__container {

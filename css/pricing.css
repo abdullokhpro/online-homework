@@ -42,6 +42,10 @@
     box-shadow: 5px 5px #263238, 5px 5px 10px black;
 }
 
+.pricing__card__img {
+    width: 100%;
+}
+
 @media (max-width: 1200px) {
     .pricing__card {
         width: 45%;
