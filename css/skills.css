@@ -4,18 +4,13 @@
     margin-bottom: 30px
 }
 
-.skills__cards {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 50px;
-}
-
 .skills__card__right {
     display: flex;
+    gap: 50px;
 }
 
-/* .skills__card {
-    width: calc(33.3 - 30px);
+.skills__card {
+    width: calc(50% - 20px);
     padding: 15px;
-} */
+    background-color: #F5F5F5;
+}
